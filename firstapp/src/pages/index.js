@@ -4,7 +4,7 @@ import styles from '@/styles/Home.module.css'
 import Input from './_input'
 import Video from './_video'
 import Form from './_form'
-
+import { AiFillHeart } from 'react-icons/ai'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,7 +19,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div className={styles.center}>
-          <Video></Video>          
+          <Video></Video>
         </div>
         <div className={styles.input}>
           <Input />
@@ -27,8 +27,8 @@ export default function Home() {
         </div>
       </main>
       <footer className={styles.footer}>
-        <div className="footer-copyright text-center text-light py-3">© 2023 Copyright: Cinthia Orona. Made with
-          <a> <i className="fas fa-heart"></i> </a>
+        <div className="footer-copyright text-center text-light py-3">© 2023 Copyright: Cinthia Orona. Made with {' '}
+          <a><AiFillHeart /></a>
         </div>
       </footer>
     </>
