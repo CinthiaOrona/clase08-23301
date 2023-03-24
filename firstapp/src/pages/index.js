@@ -27,8 +27,8 @@ export default function Home() {
         </div>
       </main>
       <footer className={styles.footer}>
-        <div class="footer-copyright text-center text-light py-3">© 2023 Copyright: Cinthia Orona. Made with
-          <a> <i class="fas fa-heart"></i> </a>
+        <div className="footer-copyright text-center text-light py-3">© 2023 Copyright: Cinthia Orona. Made with
+          <a> <i className="fas fa-heart"></i> </a>
         </div>
       </footer>
     </>
