@@ -7,7 +7,7 @@ export default function Video() {
                 src="https://mdbootstrap.com/img/video/animation-intro.mp4"
                 width={500}
                 height={300}
-                frameborder={0}
+                frameBorder={0}
                 controls           
                 
             >
