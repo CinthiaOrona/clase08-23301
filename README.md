@@ -2,4 +2,4 @@
 
 # Ejercicios
 
-* Pasar el component input y video a este proyecto de react.
+* Pasar el component input y video a este proyecto de react. :heavy_check_mark:
