@@ -4,7 +4,7 @@ import Head from 'next/head'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Input from './components/Input/_input'
-//import Video from './components/Video/_video'
+import Video from './components/Video/_video'
 import Forms from './components/Form/_form'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -19,7 +19,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        
+        <div className={styles.center}>
+          <Video />
+        </div>
         <div className='container'>
           <Input />
           <Forms />
@@ -28,9 +30,3 @@ export default function Home() {
     </>
   )
 }
-
-/*
-<div className={styles.center}>
-          <Video />
-        </div>
-*/
