@@ -1,15 +1,15 @@
 export default function Input() {
     return (
-        <div className="justify-content">
-            <label htmlFor="roll"> Tu nombre </label>
+        <div className="bg-light p-3">
+            <label htmlFor="tunombre"> Tu nombre </label>
             <input
-                className="form-control"
+                className='form-control mt-3 mb-3'
                 type="text"
                 id="tunombre"
                 name="tunombre"
                 required
                 minLength="10"
-                maxLength="20" 
+                maxLength="20"
             />
         </div>
     )

@@ -8,8 +8,7 @@ export default function Video() {
                 width={500}
                 height={300}
                 frameBorder={0}
-                controls           
-                
+                controls              
             >
             </video>
         </div>

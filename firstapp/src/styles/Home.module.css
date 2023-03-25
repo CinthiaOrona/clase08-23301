@@ -11,16 +11,3 @@
   flex-direction: row;
   align-items: center;
 }
-
-.footer {
-  width: 100%;
-  height: 4rem;
-  padding: 3rem;
-  background-color: #222121;
-  color: rgb(113, 134, 134);
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  position: fixed;
-
-}
