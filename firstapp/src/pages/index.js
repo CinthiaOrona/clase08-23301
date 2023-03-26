@@ -19,10 +19,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <div className={styles.center}>
+        <div className='container d-flex'>
           <Video />
         </div>
-        <div className='container'>
+        <div className='container inline-flex'>
           <Input />
           <Forms />
         </div>

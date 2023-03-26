@@ -1,6 +1,6 @@
 export default function Input() {
     return (
-        <div className="bg-light p-3">
+        <div className="bg-light p-3 w-50 mx-auto">
             <label htmlFor="tunombre"> Tu nombre </label>
             <input
                 className='form-control mt-3 mb-3'

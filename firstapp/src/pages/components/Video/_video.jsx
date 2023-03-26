@@ -3,7 +3,7 @@
 export default function Video() {
     return (
 
-        <div>
+        <div className="mx-auto">
             <video
                 src="https://mdbootstrap.com/img/video/animation-intro.mp4"
                 width={500}
