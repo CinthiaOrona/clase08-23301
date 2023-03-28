@@ -1,8 +1,7 @@
-//import styles from '@/styles/Video.module.css'
+//import { datosVideos } from '../datos.js'
 
 export default function Video() {
     return (
-
         <div className="mx-auto">
             <video
                 src="https://mdbootstrap.com/img/video/animation-intro.mp4"

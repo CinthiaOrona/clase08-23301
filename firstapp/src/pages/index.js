@@ -1,13 +1,10 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 import Head from 'next/head'
-import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
-import Input from './components/Input/_input'
-import Video from './components/Video/_video'
-import Forms from './components/Form/_form'
+import Input from './_input'
+import Video from './_video'
+import Forms from './_form'
 
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
