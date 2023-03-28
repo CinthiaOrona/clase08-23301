@@ -1,7 +1,8 @@
+'use client'
 const datosVideos = [
-    'https://www.vidsplay.com/tropical-ocean-aerial/',
-    'https://www.vidsplay.com/sea-sunset-ocean',
-    'https://www.vidsplay.com/new-england-coast-buildings',
+    'https://mdbootstrap.com/img/video/animation-intro.mp4',
+    'https://mdbootstrap.com/img/video/animation-intro.mp4',
+    'https://mdbootstrap.com/img/video/animation-intro.mp4'
 ];
 
 export {datosVideos};
